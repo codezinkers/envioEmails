@@ -1,6 +1,5 @@
 En este script se emplea el módulo Nodemailer para el envío de correos mediante Node.js
 La explicación del set up va dirigida a su instalacion en una distribución GNU/Linux.
-En Windows sería muy similar. Para ello hay que abrir la consola pulsar windows + r y escribir cmd. Solo hay que omitir el paso 1
 
 Lo primero es tener instalado Node.js. Para hay que acceder a la terminal.
 Si se trabaja en un entorno gráfico, buscar en el panel de búsqueda terminal
@@ -10,7 +9,6 @@ sudo apt-get upgrade
 
 2. Instalacion de Node.js
 sudo apt-get install nodejs (v.8.10.0) Una versión superior no debería afectar.
-(En windows) Se puede instalar Node.js mediante su instalador --> https://nodejs.org/es/ Descargar la estable
 
 3. Instalar el modulo convert-csv-to-array
 npm i convert-csv-to-array -S (v.1.0.3)
